@@ -1,0 +1,39 @@
+/* ------------------------------
+buttons styles
+------------------------------ */
+
+#buttons
+{
+	background: #9FA41D;
+	color: #272900;
+	padding: 2px 0;
+	margin-bottom: 22px;
+}
+
+#buttons ul
+{
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+}
+
+#buttons li
+{
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #C4C769;
+}
+
+#buttons  li a
+{
+	text-decoration: none;
+	color: #272900;
+}
+
+#buttons li a:hover
+{
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+}

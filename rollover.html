@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+
+<TITLE>JavaScript Image Rollover</TITLE>
+
+<SCRIPT LANGUAGE = "JavaScript">
+
+document.write("<H1>Image rollovers</H1>");
+
+function mouseOn()
+{
+document.lightImage.src = "xbox1.gif";
+}
+function mouseOff()
+{
+document.lightImage.src = "xbox2.gif";
+}
+
+</SCRIPT>
+</HEAD>
+<BODY>
+
+
+<H3>Move the cursor over the image for the effect</H3>
+
+<IMG NAME = "lightImage" SRC = "xbox2.gif"
+
+width "500" height = "500" border = "2"
+ONMOUSEOVER = "mouseOn();"
+
+ONMOUSEOUT = "mouseOff();">
+
+
+</BODY>
+</HTML>

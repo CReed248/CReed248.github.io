@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>E-mail check</title>
+<script type="text/javascript">
+function validate_email()
+{
+found_at=document.form1.email_address.value.indexOf("@")
+if (found_at == -1)
+	{
+	alert("this is not an e-mail address")
+	return false
+	}
+}
+</script>
+</head>
+<body>
+<form name="form1"
+action="http://www.comp.glam.ac.uk/pages/staff/jmware/form_ok.html"
+onsubmit="return validate_email()">
+Enter E-mail address:
+<input type="text" name="email_address"> 
+<input type="submit" value="Submit"> 
+</form>
+</body>
+</html>
+
+
